@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Stylus-BT";
+}
+.header {
+  background-image: url(../img/slider-section-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+a:hover {
+  text-decoration: none;
+}
+.mnu-container-block {
+  background-color: white;
+}
+/* Менюшка */
+.head-title {
+  font-size: 60px;
+  font-family: "Jokerman";
+  color: #5094f2;
+}
+.link-mobile {
+  display: block;
+}
+.mnu-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+}
+.ul-mobile {
+  list-style-type: none;
+  display: none;
+}
+.nav-bar-img {
+  display: block;
+  width: 64px;
+  height: auto;
+}
+.row-mobile {
+  position: relative;
+}
+.mobile-hidden-mnu {
+  display: none;
+  position: absolute;
+}
+.mnu-li {
+  margin-right: 20px;
+}
+.mnu-link {
+  font-size: 25px;
+  display: block;
+  width: 100%;
+  color: #6c6c6c;
+  line-height: 40px;
+  font-family: "Jokerman";
+}
+.mnu-link:hover {
+  color: #6c6c6c;
+  text-decoration: none;
+  border-bottom: 3px solid #5094f2;
+}
+/* Слайдер */
+.slider-section {
+  background-image: url(../img/slider-section-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.sing-up-button {
+  background-color: #5094f2;
+  width: auto;
+  padding: 10px 10px;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.sing-up-button:hover {
+  color: white;
+  text-decoration: none;
+}
+.slider-text-h1 {
+  font-size: 44px;
+  color: white;
+}
+.slider-text-p {
+  font-size: 28px;
+  color: white;
+}
+/* зубци и картинки */
+.section-content {
+  position: relative;
+}
+.zubci-div {
+  top: -10px;
+  left: 10px;
+  position: absolute;
+  height: 10px;
+  width: 100%;
+  background-image: url(../img/zubci.png);
+  background-repeat: repeat-x;
+}
+.content-mini-block-h6 {
+  font-size: 28px;
+  color: #5094f2;
+}
+.content-mini-block-p {
+  font-size: 18px;
+  color: #aeaeae;
+}
+/* Секция с корзиной */
+.cart-title {
+  font-size: 50px;
+  font-family: "Jokerman";
+  color: #4d8ed7;
+  text-shadow: 2px 5px 2px rgba(150, 150, 150, 0.5);
+}
+.cart-text-h4 {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #909090;
+}
+.cart-text-p {
+  font-size: 16px;
+  line-height: 40px;
+  color: #909090;
+}
+.cart-after-line {
+  background-color: #e5e5e5;
+  height: 2px;
+  width: 100%;
+}
+/* Подвал */
+.copyright {
+  font-family: "Algerian";
+  font-size: 25px;
+  color: #909090;
+}
